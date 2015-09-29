@@ -1,0 +1,51 @@
+@import url(bootstrap.css);
+html, body {
+	overflow-x: hidden;
+	height: 100%;
+}
+
+body {
+	overflow-x: hidden;
+	height: 100%;
+	padding-top: 45px; 
+	background-color: #eee!important;
+}
+
+*:focus {
+    outline: none!important;
+}
+
+.jumbotron-index {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 95%;
+	color: #eee;
+	text-align: center;
+	position: relative;
+	padding-left: 0;
+	padding: 0;
+	background-image: url("../images/indexCoverPhoto.jpg");
+	#margin-bottom: 0px!important;
+}
+
+.jumbotron > .overlay > .container {
+	position: absolute;
+	top: 0; right: 0; bottom: 0; left: 0;
+	margin: auto;
+	color: white;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+	width: 600px;
+	height: 210px;
+}
+
+footer {
+	background-color: #221e1e;
+	color: rgb(157, 157, 141);
+	text-align: left;
+	font-size: 1.1em;
+	padding-top: 15px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	margin: 0px;
+}
