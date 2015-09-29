@@ -68,12 +68,14 @@ p{
 
 .members-thumbnail {
 	margin-top: 30px;
-	max-height: 300px;
+	height: 275px;
+	width: 225px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 	overflow: hidden;
-}
-
-.members-img {
-	width: 100%;
+	margin-left: auto;
+    margin-right: auto;
 }
 
 .members-margin {
@@ -89,6 +91,134 @@ p{
 .members-info {
 	font-size: 1.2em;
 	text-align: center;
+}
+
+.member-sebastian {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-sebastian:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-john {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-john:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-kyle {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-kyle:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-seth {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-seth:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-ryan {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-ryan:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-ben {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-ben:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-alex {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-alex:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-greg {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-greg:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-johnny {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-johnny:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-tony {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-tony:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-ethan {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-ethan:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-genevieve {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-genevieve:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-ishan {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-ishan:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-emma {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-emma:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-sean {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-sean:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
+}
+
+.member-ramy {
+	background-image: url("../images/image3.jpg");
+}
+
+.member-ramy:hover {
+	background-image: url("../images/indexCoverPhoto.jpg");
 }
 
 footer {
