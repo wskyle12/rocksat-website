@@ -50,6 +50,22 @@ p{
 	margin-bottom: 0px!important;
 }
 
+.great-minds {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.h1-great-minds {
+	font-family: 'Lora', serif;
+	font-size: 3.5em;
+}
+
+.hr-home{
+	border: 0;
+    height: 1px;
+    background: #333;
+}
+
 .jumbotron > .overlay > .container {
 	position: absolute;
 	top: 0; right: 0; bottom: 0; left: 0;
