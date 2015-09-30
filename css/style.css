@@ -11,11 +11,15 @@ body {
 	background-color: #eee!important;
 }
 p{
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 *:focus {
     outline: none!important;
+}
+
+.navbar-padding-right {
+	padding-right: 5px;
 }
 
 .jumbotron-index {
@@ -64,6 +68,21 @@ p{
 
 .fill-page {
 	min-height: 100%;
+}
+
+.fa-envelope-square {
+	color: #db4437;
+	padding-left: 10px;
+}
+
+.fa-facebook-square {
+	color: #34bf49;
+	padding-left: 10px;
+}
+
+.fa-twitter-square {
+	color: #55acee;
+	padding-left: 10px;
 }
 
 .members-thumbnail {
@@ -221,13 +240,31 @@ p{
 	background-image: url("../images/indexCoverPhoto.jpg");
 }
 
-footer {
-	background-color: #221e1e;
-	color: rgb(157, 157, 141);
-	text-align: left;
+.footer {
+	background-color: rgb(34, 34, 34);
+	border-color: #52b88b;
+}
+
+.layered-footer {
+	margin: 10px 20px;
+}
+
+.footer-text {
+	color: #ecf0f1;
 	font-size: 1.1em;
-	padding-top: 15px;
-	padding-bottom: 6px;
-	padding-left: 10px;
-	margin: 0px;
+	text-align: left;
+	padding-bottom: 5px;
+}
+
+.footer-pull {
+	text-align: right;
+}
+
+@media (max-width: 1000px) {
+	.footer-text {
+		text-align: center;
+	}
+	.footer-pull {
+		text-align: center;
+	}
 }

@@ -4,6 +4,6 @@
 	$message = $_POST['message'];
 	$to = 'wskyle12@vt.edu'; 
 	$subject = 'Message from Website';
-
-	mail ($to, $subject, $body,)
+	$headers = "From: someone@your-website.com";
+	mail($to, $subject, $body, $headers)
 ?>
