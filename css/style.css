@@ -39,14 +39,12 @@ p{
 .jumbotron-members {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
-	height: 45%;
+	background-position: top;
+	height: 65%;
 	color: #eee;
 	text-align: center;
 	position: relative;
-	padding-left: 0;
-	padding: 0;
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/members-jumbo.jpg");
 	margin-bottom: 0px!important;
 }
 
