@@ -10,9 +10,14 @@ body {
 	padding-top: 45px; 
 	background-color: #eee!important;
 }
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 0px!important;
+	margin-bottom: 0px!important;
+}
 
 p{
 	font-family: 'Ubuntu', sans-serif;
+	margin-bottom: 0px!important;
 }
 
 a.hide-a {
@@ -134,9 +139,39 @@ a.hide-a:hover{
 	background-color: #46535C;
 }
 
+.index-projects-block {
+	color: white;
+	padding-top: 50px;
+	font-family: 'Montserrat', sans-serif!important;
+}
+
+.index-projects-block-1 {
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	font-family: 'Montserrat', sans-serif!important;
+}
+
 .index-content-3 {
-	min-height: 500px;
+	position: relative;
 	background-color: #2A3744;
+}
+
+.index-member-block {
+	color: white;
+	padding-top: 50px;
+}
+
+.index-members-padding {
+	padding-bottom: 20px;
+}
+
+.index-content-3 > h1{
+	font-family: 'Montserrat', sans-serif!important;
+}
+
+.index-content-3-btn{
+	padding-bottom: 50px;
 }
 
 .layered-content {
@@ -322,6 +357,7 @@ a.hide-a:hover{
 .footer {
 	background-color: rgb(34, 34, 34);
 	border-color: #52b88b;
+	padding-bottom: 5px;
 }
 
 .layered-footer {
