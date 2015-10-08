@@ -10,8 +10,19 @@ body {
 	padding-top: 45px; 
 	background-color: #eee!important;
 }
+
 p{
 	font-family: 'Ubuntu', sans-serif;
+}
+
+a.hide-a {
+	text-decoration: none;
+	color: white;
+}
+
+a.hide-a:hover{
+	text-decoration: none;
+	color: white;
 }
 
 *:focus {
@@ -26,14 +37,30 @@ p{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-	height: 95%;
+	height: 100%;
 	color: #eee;
 	text-align: center;
 	position: relative;
 	padding-left: 0;
 	padding: 0;
+	background-image: url("../images/index_Cover.png");
+	margin-bottom: 0px!important;
+}
+
+.jumbotron-about {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 75%;
+	color: #eee;
+	text-align: center;
+	position: relative;
 	background-image: url("../images/indexCoverPhoto.jpg");
 	margin-bottom: 0px!important;
+}
+
+.about-body {
+	padding-top: 50px;
 }
 
 .jumbotron-members {
@@ -46,6 +73,10 @@ p{
 	position: relative;
 	background-image: url("../images/members-jumbo.jpg");
 	margin-bottom: 0px!important;
+}
+
+.index-carousel {
+	height: 75%;
 }
 
 .great-minds {
@@ -72,6 +103,40 @@ p{
 	text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 	width: 600px;
 	height: 210px;
+}
+
+.jumbotron > .overlay-index > .index-tour {
+	position: absolute;
+	color: white;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+.index-tour {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.index-main-overlay {
+	margin-top: 100px;
+	color: white;
+	text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+}
+
+.index-content-1 {
+	min-height: 500px;
+	background-color: #38424B;
+}
+
+.index-content-2 {
+	min-height: 500px;
+	background-color: #46535C;
+}
+
+.index-content-3 {
+	min-height: 500px;
+	background-color: #2A3744;
 }
 
 .layered-content {
@@ -127,11 +192,11 @@ p{
 }
 
 .member-sebastian {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/bas.jpg");
 }
 
 .member-sebastian:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/bas_funny.jpg");
 }
 
 .member-john {
@@ -143,11 +208,11 @@ p{
 }
 
 .member-kyle {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/kyle.jpg");
 }
 
 .member-kyle:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/kyle_funny.jpg");
 }
 
 .member-seth {
@@ -159,19 +224,19 @@ p{
 }
 
 .member-ryan {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/ryan.jpg");
 }
 
 .member-ryan:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/ryan_funny.jpg");
 }
 
 .member-ben {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/ben.jpg");
 }
 
 .member-ben:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/ben_funny.jpg");
 }
 
 .member-alex {
@@ -191,15 +256,15 @@ p{
 }
 
 .member-johnny {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/johnny.jpg");
 }
 
 .member-johnny:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/johnny_funny.jpg");
 }
 
 .member-tony {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/tony.jpg");
 }
 
 .member-tony:hover {
@@ -215,7 +280,7 @@ p{
 }
 
 .member-genevieve {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/genevieve.jpg");
 }
 
 .member-genevieve:hover {
@@ -223,11 +288,11 @@ p{
 }
 
 .member-ishan {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/ishan.jpg");
 }
 
 .member-ishan:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/ishan_funny.jpg");
 }
 
 .member-emma {
@@ -281,4 +346,8 @@ p{
 	.footer-pull {
 		text-align: center;
 	}
+}
+
+#index-tour {
+	cursor: pointer;
 }
