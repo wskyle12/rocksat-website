@@ -52,6 +52,34 @@ a.hide-a:hover{
 	margin-bottom: 0px!important;
 }
 
+.jumbotron-projects {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 90%;
+	color: #eee;
+	text-align: center;
+	position: relative;
+	padding-left: 0;
+	padding: 0;
+	background-image: url("../images/index_Cover.jpg");
+	margin-bottom: 0px!important;
+}
+
+.jumbotron-projects-1 {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 90%;
+	color: #eee;
+	text-align: center;
+	position: relative;
+	padding-left: 0;
+	padding: 0;
+	background-image: url("../images/members_jumbo.jpg");
+	margin-bottom: 0px!important;
+}
+
 .jumbotron-about {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -68,15 +96,20 @@ a.hide-a:hover{
 	padding-top: 50px;
 }
 
+.projects-body {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
 .jumbotron-members {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: top;
+	background-position: center;
 	height: 65%;
 	color: #eee;
 	text-align: center;
 	position: relative;
-	background-image: url("../images/members-jumbo.jpg");
+	background-image: url("../images/team_working.jpg");
 	margin-bottom: 0px!important;
 }
 
@@ -176,6 +209,7 @@ a.hide-a:hover{
 
 .layered-content {
 	padding-top: 10px;
+	padding-bottom: 50px;
 	background-color: #E8E8E8;
 	position:relative;
 }
