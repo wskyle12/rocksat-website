@@ -269,11 +269,11 @@ a.hide-a:hover{
 }
 
 .member-john {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/john.jpg");
 }
 
 .member-john:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/john_funny.jpg");
 }
 
 .member-kyle {
@@ -285,11 +285,11 @@ a.hide-a:hover{
 }
 
 .member-seth {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/seth.jpg");
 }
 
 .member-seth:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/seth_funny.jpg");
 }
 
 .member-ryan {
@@ -309,11 +309,11 @@ a.hide-a:hover{
 }
 
 .member-alex {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/alex.jpg");
 }
 
 .member-alex:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/alex_funny.jpg");
 }
 
 .member-greg {
@@ -353,7 +353,7 @@ a.hide-a:hover{
 }
 
 .member-genevieve:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/genevieve_funny.jpg");
 }
 
 .member-ishan {
@@ -365,27 +365,27 @@ a.hide-a:hover{
 }
 
 .member-emma {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/emma.jpg");
 }
 
 .member-emma:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/emma_funny.jpg");
 }
 
 .member-sean {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/sean.jpg");
 }
 
 .member-sean:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/sean_funny.jpg");
 }
 
 .member-ramy {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/ramy.jpg");
 }
 
 .member-ramy:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/ramy_funny.jpg");
 }
 
 .footer {
