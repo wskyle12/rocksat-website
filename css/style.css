@@ -99,6 +99,7 @@ a.hide-a:hover{
 .projects-body {
 	padding-top: 50px;
 	padding-bottom: 50px;
+	background-color: #E8E8E8;
 }
 
 .jumbotron-members {
@@ -131,6 +132,10 @@ a.hide-a:hover{
 	border: 0;
     height: 1px;
     background: #333;
+}
+
+.hr-body {
+	border-bottom: 4px solid #bbb;
 }
 
 .jumbotron > .overlay > .container {
@@ -199,6 +204,17 @@ a.hide-a:hover{
 	padding-bottom: 20px;
 }
 
+.img-rocksat-logos {
+	border-radius: 50%;
+	display: block;
+	margin: 20px auto;
+	max-width: 80%;
+}
+
+.img-payload {
+	margin-bottom: 20px;
+}
+
 .index-content-3 > h1{
 	font-family: 'Montserrat', sans-serif!important;
 }
@@ -212,6 +228,21 @@ a.hide-a:hover{
 	padding-bottom: 50px;
 	background-color: #E8E8E8;
 	position:relative;
+}
+
+.layered-projects {
+	padding-top: 10px;
+	background-color: #E8E8E8;
+	position:relative;
+}
+
+.spec-table {
+	width: 75%;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
 }
 
 .fill-page {
