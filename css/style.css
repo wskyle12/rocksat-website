@@ -410,15 +410,15 @@ a.hide-a:hover{
 }
 
 .member-tony:hover {
-	background-image: url("../images/members/indexCoverPhoto.jpg");
+	background-image: url("../images/members/tony_funny.jpg");
 }
 
 .member-ethan {
-	background-image: url("../images/members/image3.jpg");
+	background-image: url("../images/members/ethan.jpg");
 }
 
 .member-ethan:hover {
-	background-image: url("../images/members/indexCoverPhoto.jpg");
+	background-image: url("../images/members/ethan_funny.jpg");
 }
 
 .member-genevieve {
@@ -514,4 +514,12 @@ a.hide-a:hover{
 	border-left-color: #660000!important;
 	border-right-color: #660000!important;
 	border-top-color: #660000!important;
+}
+
+
+.logo-header {
+	margin-right:10px;
+	margin-top: -10px;
+	float: left;
+	padding-bottom: 5px;
 }
