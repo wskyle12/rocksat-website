@@ -93,13 +93,38 @@ a.hide-a:hover{
 }
 
 .about-body {
-	padding-top: 50px;
+	min-height: 400px;
+	background-color: #660000;
+	text-align: center;
+}
+
+.about-body-1 {
+	min-height: 400px;
+	background-color: #ff6600;
+	text-align: center;
+}
+
+.about-body-2 {
+	min-height: 400px;
+	background-color: #660000;
+	text-align: center;
+}
+
+.body-text > h1 {
+	font-size: 5.0em;
+	color: #cbb;
+	font-family: 'Lora', serif!important;
+}
+
+.body-text {
+	padding-top: 150px;
 }
 
 .projects-body {
-	padding-top: 50px;
+	padding-top: 30px;
 	padding-bottom: 50px;
-	background-color: #E8E8E8;
+	background-color: #38424B;
+	color: white;
 }
 
 .jumbotron-members {
@@ -132,6 +157,18 @@ a.hide-a:hover{
 	border: 0;
     height: 1px;
     background: #333;
+}
+
+.hr-projects{
+	border: 0;
+    height: 1px;
+    background: #eee;
+}
+
+.hr-about{
+	border: 0;
+    height: 1px;
+    background: #bbd;
 }
 
 .hr-body {
@@ -169,12 +206,12 @@ a.hide-a:hover{
 
 .index-content-1 {
 	min-height: 500px;
-	background-color: #38424B;
+	background-color: #1D2D53;
 }
 
 .index-content-2 {
 	min-height: 500px;
-	background-color: #46535C;
+	background-color: #2A3744;
 }
 
 .index-projects-block {
@@ -190,9 +227,13 @@ a.hide-a:hover{
 	font-family: 'Montserrat', sans-serif!important;
 }
 
+.index-projects-block-2 {
+	padding-bottom: 50px;
+}
+
 .index-content-3 {
 	position: relative;
-	background-color: #2A3744;
+	background-color: #46535C;
 }
 
 .index-member-block {
@@ -213,6 +254,7 @@ a.hide-a:hover{
 
 .img-payload {
 	margin-bottom: 20px;
+	max-height: 750px;
 }
 
 .index-content-3 > h1{
@@ -232,12 +274,12 @@ a.hide-a:hover{
 
 .layered-projects {
 	padding-top: 10px;
-	background-color: #E8E8E8;
 	position:relative;
 }
 
 .spec-table {
 	width: 75%;
+	color: black;
 }
 
 .img-center {
@@ -292,131 +334,131 @@ a.hide-a:hover{
 }
 
 .member-sebastian {
-	background-image: url("../images/bas.jpg");
+	background-image: url("../images/members/bas.jpg");
 }
 
 .member-sebastian:hover {
-	background-image: url("../images/bas_funny.jpg");
+	background-image: url("../images/members/bas_funny.jpg");
 }
 
 .member-john {
-	background-image: url("../images/john.jpg");
+	background-image: url("../images/members/john.jpg");
 }
 
 .member-john:hover {
-	background-image: url("../images/john_funny.jpg");
+	background-image: url("../images/members/john_funny.jpg");
 }
 
 .member-kyle {
-	background-image: url("../images/kyle.jpg");
+	background-image: url("../images/members/kyle.jpg");
 }
 
 .member-kyle:hover {
-	background-image: url("../images/kyle_funny.jpg");
+	background-image: url("../images/members/kyle_funny.jpg");
 }
 
 .member-seth {
-	background-image: url("../images/seth.jpg");
+	background-image: url("../images/members/seth.jpg");
 }
 
 .member-seth:hover {
-	background-image: url("../images/seth_funny.jpg");
+	background-image: url("../images/members/seth_funny.jpg");
 }
 
 .member-ryan {
-	background-image: url("../images/ryan.jpg");
+	background-image: url("../images/members/ryan.jpg");
 }
 
 .member-ryan:hover {
-	background-image: url("../images/ryan_funny.jpg");
+	background-image: url("../images/members/ryan_funny.jpg");
 }
 
 .member-ben {
-	background-image: url("../images/ben.jpg");
+	background-image: url("../images/members/ben.jpg");
 }
 
 .member-ben:hover {
-	background-image: url("../images/ben_funny.jpg");
+	background-image: url("../images/members/ben_funny.jpg");
 }
 
 .member-alex {
-	background-image: url("../images/alex.jpg");
+	background-image: url("../images/members/alex.jpg");
 }
 
 .member-alex:hover {
-	background-image: url("../images/alex_funny.jpg");
+	background-image: url("../images/members/alex_funny.jpg");
 }
 
 .member-greg {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/members/image3.jpg");
 }
 
 .member-greg:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/members/indexCoverPhoto.jpg");
 }
 
 .member-johnny {
-	background-image: url("../images/johnny.jpg");
+	background-image: url("../images/members/johnny.jpg");
 }
 
 .member-johnny:hover {
-	background-image: url("../images/johnny_funny.jpg");
+	background-image: url("../images/members/johnny_funny.jpg");
 }
 
 .member-tony {
-	background-image: url("../images/tony.jpg");
+	background-image: url("../images/members/tony.jpg");
 }
 
 .member-tony:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/members/indexCoverPhoto.jpg");
 }
 
 .member-ethan {
-	background-image: url("../images/image3.jpg");
+	background-image: url("../images/members/image3.jpg");
 }
 
 .member-ethan:hover {
-	background-image: url("../images/indexCoverPhoto.jpg");
+	background-image: url("../images/members/indexCoverPhoto.jpg");
 }
 
 .member-genevieve {
-	background-image: url("../images/genevieve.jpg");
+	background-image: url("../images/members/genevieve.jpg");
 }
 
 .member-genevieve:hover {
-	background-image: url("../images/genevieve_funny.jpg");
+	background-image: url("../images/members/genevieve_funny.jpg");
 }
 
 .member-ishan {
-	background-image: url("../images/ishan.jpg");
+	background-image: url("../images/members/ishan.jpg");
 }
 
 .member-ishan:hover {
-	background-image: url("../images/ishan_funny.jpg");
+	background-image: url("../images/members/ishan_funny.jpg");
 }
 
 .member-emma {
-	background-image: url("../images/emma.jpg");
+	background-image: url("../images/members/emma.jpg");
 }
 
 .member-emma:hover {
-	background-image: url("../images/emma_funny.jpg");
+	background-image: url("../images/members/emma_funny.jpg");
 }
 
 .member-sean {
-	background-image: url("../images/sean.jpg");
+	background-image: url("../images/members/sean.jpg");
 }
 
 .member-sean:hover {
-	background-image: url("../images/sean_funny.jpg");
+	background-image: url("../images/members/sean_funny.jpg");
 }
 
 .member-ramy {
-	background-image: url("../images/ramy.jpg");
+	background-image: url("../images/members/ramy.jpg");
 }
 
 .member-ramy:hover {
-	background-image: url("../images/ramy_funny.jpg");
+	background-image: url("../images/members/ramy_funny.jpg");
 }
 
 .footer {
@@ -451,4 +493,16 @@ a.hide-a:hover{
 
 #index-tour {
 	cursor: pointer;
+}
+
+.logo {
+	width:75px;
+	height:45px;
+}
+
+.logo-header {
+	margin-right:10px;
+	margin-top: -10px;
+	float: left;
+	padding-bottom: 5px;
 }
