@@ -495,18 +495,6 @@ a.hide-a:hover{
 	cursor: pointer;
 }
 
-.logo {
-	width:75px;
-	height:45px;
-}
-
-.logo-header {
-	margin-right:10px;
-	margin-top: -10px;
-	float: left;
-	padding-bottom: 5px;
-}
-
 .custom-btn {
 	background-image: linear-gradient(#660000 0px, #660000 100%)!important;
 	border-bottom-color: #660000!important;
