@@ -149,7 +149,7 @@ a.hide-a:hover{
 }
 
 .h1-great-minds {
-	font-family: 'Lora', serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 3.5em;
 }
 
@@ -390,11 +390,11 @@ a.hide-a:hover{
 }
 
 .member-greg {
-	background-image: url("../images/members/image3.jpg");
+	background-image: url("../images/members/greg.jpg");
 }
 
 .member-greg:hover {
-	background-image: url("../images/members/indexCoverPhoto.jpg");
+	background-image: url("../images/members/greg_funny.jpg");
 }
 
 .member-johnny {
