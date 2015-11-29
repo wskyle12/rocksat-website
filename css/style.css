@@ -66,6 +66,20 @@ a.hide-a:hover{
 	margin-bottom: 0px!important;
 }
 
+.jumbotron-about {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 65%;
+	color: #eee;
+	text-align: center;
+	position: relative;
+	padding-left: 0;
+	padding: 0;
+	background-image: url("../images/index_Cover.jpg");
+	margin-bottom: 0px!important;
+}
+
 .jumbotron-projects-1 {
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -80,34 +94,19 @@ a.hide-a:hover{
 	margin-bottom: 0px!important;
 }
 
-.jumbotron-about {
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-	height: 75%;
-	color: #eee;
-	text-align: center;
-	position: relative;
-	background-image: url("../images/indexCoverPhoto.jpg");
-	margin-bottom: 0px!important;
-}
-
 .about-body {
-	min-height: 400px;
-	background-color: #660000;
-	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #424242;
+	color: #eee;
 }
 
-.about-body-1 {
-	min-height: 400px;
-	background-color: #ff6600;
-	text-align: center;
+.about-text-block {
+		font-size: 1.2em;
 }
 
-.about-body-2 {
-	min-height: 400px;
-	background-color: #660000;
-	text-align: center;
+.projects-text-block {
+		font-size: 1.0em;
 }
 
 .body-text > h1 {
