@@ -62,7 +62,7 @@ a.hide-a:hover{
 	position: relative;
 	padding-left: 0;
 	padding: 0;
-	background-image: url("../images/index_Cover.jpg");
+	background-image: url("../images/rocksat-2015/rocksat2015Background.jpg");
 	margin-bottom: 0px!important;
 }
 
@@ -106,7 +106,7 @@ a.hide-a:hover{
 }
 
 .projects-text-block {
-		font-size: 1.0em;
+		font-size: 1.2em;
 }
 
 .body-text > h1 {
@@ -150,6 +150,11 @@ a.hide-a:hover{
 .h1-great-minds {
 	font-family: 'Roboto', sans-serif;
 	font-size: 3.5em;
+}
+
+.h1-sponsers {
+	font-size: 3.5em;
+    font-family: 'Roboto', sans-serif!important;
 }
 
 .hr-home{
