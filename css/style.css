@@ -13,6 +13,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0px!important;
 	margin-bottom: 0px!important;
+	font-family: 'Montserrat', sans-serif!important;
 }
 
 p{
@@ -148,13 +149,13 @@ a.hide-a:hover{
 }
 
 .h1-great-minds {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Roboto', sans-serif!important;
 	font-size: 3.5em;
 }
 
 .h1-sponsers {
-	font-size: 3.5em;
-    font-family: 'Roboto', sans-serif!important;
+	font-size: 3.0em;
+    font-family: 'Montserrat', sans-serif!important;
 }
 
 .hr-home{
@@ -514,4 +515,50 @@ a.hide-a:hover{
 	margin-top: -10px;
 	float: left;
 	padding-bottom: 5px;
+}
+
+.btn-index { 
+  color: #ffffff; 
+  background-color: #222222; 
+  border-color: #222222; 
+} 
+ 
+.btn-index:hover, 
+.btn-index:focus, 
+.btn-index:active, 
+.btn-index.active, 
+.open .dropdown-toggle.btn-index { 
+  color: #ffffff!important; 
+  background-color: #161616; 
+  border-color: #222222; 
+} 
+ 
+.btn-index:active, 
+.btn-index.active, 
+.open .dropdown-toggle.btn-index { 
+  background-image: none; 
+} 
+ 
+.btn-index.disabled, 
+.btn-index[disabled], 
+fieldset[disabled] .btn-index, 
+.btn-index.disabled:hover, 
+.btn-index[disabled]:hover, 
+fieldset[disabled] .btn-index:hover, 
+.btn-index.disabled:focus, 
+.btn-index[disabled]:focus, 
+fieldset[disabled] .btn-index:focus, 
+.btn-index.disabled:active, 
+.btn-index[disabled]:active, 
+fieldset[disabled] .btn-index:active, 
+.btn-index.disabled.active, 
+.btn-index[disabled].active, 
+fieldset[disabled] .btn-index.active { 
+  background-color: #222222; 
+  border-color: #222222; 
+} 
+ 
+.btn-index .badge { 
+  color: #222222; 
+  background-color: #ffffff; 
 }
